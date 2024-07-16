@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequences</title>
+    <link rel="icon" type="image/jpg" href="LogoSeq.jpg">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Sequences</h1>
+    <h2>Group numbers that share a common thread.</h2>
+    <div class="grid-container">
+        <!-- Squares will be populated dynamically -->
+    </div>
+
+    <h3 id="mistakes">Mistakes remaining: * * * *</h3>
+    <div class="button-container">
+        <button class="submit-button" disabled>Submit</button>
+        <button class="shuffle-button">Shuffle</button> 
+    </div>
+
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p id="resultMessage"></p>
+            <p id="nextPuzzleMessage"></p>
+            <p id="countdownTimer"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
